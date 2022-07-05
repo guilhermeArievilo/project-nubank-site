@@ -1,0 +1,31 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors";
+@import "partials/layout";
+@import "partials/tipography";
+@import "partials/buttons";
+@import "partials/spacing";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: $white-dark;
+}
+
+
+@import "partials/menu";
+@import "partials/swiper";
+@import "partials/icons";
+@import "partials/footer";
+@import "partials/animations";
